@@ -1,63 +1,38 @@
-# felt-template
+# mirror-twin-gro
 
-> a static website template with [SvelteKit](https://github.com/sveltejs/kit),
-> [Gro](https://github.com/feltcoop/gro), and [Felt](https://github.com/feltcoop/felt)
+> play with image
+> [bilateral symmetry](https://en.wikipedia.org/wiki/Symmetry_in_biology#Bilateral_symmetry),
+> with a focus on faces 😑
+> [ryanatkn.github.io/mirror-twin-gro](https://ryanatkn.github.io/mirror-twin-gro)
 
-deployed: <https://feltcoop.github.io/felt-template/>
+this is a little one page web app with _two_ implementations:
 
-## usage
-
-> tip: did you know about the "Use this template" button above? (if you're logged in)
-
-```bash
-npx degit feltcoop/felt-template#main cooltoy
-cd cooltoy
-npm i
-# then
-npm run dev
-# or
-gro dev
-```
-
-See [SvelteKit](https://github.com/sveltejs/kit)
-and [Vite](https://github.com/vitejs/vite) for more.
-
-> why [`degit`](https://github.com/Rich-Harris/degit)?
-
-## build
-
-```bash
-npm run build
-node build
-# or
-gro build
-gro start
-```
-
-## deploy
-
-```bash
-npm run deploy
-# or
-gro deploy
-```
-
-deployed: <https://feltcoop.github.io/felt-template/>
-
-## template
+| 🐢                                                                                     | tech                                                                                  | 🕸️                                                                                                       |
+| -------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
+| [`mirror-twin-sveltekit-vite`](https://github.com/ryanatkn/mirror-twin-sveltekit-vite) | [SvelteKit](https://github.com/sveltejs/kit) ∙ [Vite](https://github.com/vitejs/vite) | [`ryanatkn.github.io/mirror-twin-sveltekit-vite`](https://ryanatkn.github.io/mirror-twin-sveltekit-vite) |
+| `mirror-twin-gro`                                                                      | [Gro](https://github.com/feltcoop/gro)                                                | [ `ryanatkn.github.io/mirror-twin-gro`](https://ryanatkn.github.io/mirror-twin-gro)                      |
 
 # :turtle:<sub>:turtle:</sub><sub><sub>:turtle:</sub></sub>
 
-[Svelte](https://github.com/sveltejs/svelte) ∙
-[SvelteKit](https://github.com/sveltejs/kit) ∙
-[Vite](https://github.com/vitejs/vite) ∙
-[Gro](https://github.com/feltcoop/gro) ∙
-[Felt](https://github.com/feltcoop/felt) ∙
+both build on [Svelte](https://github.com/sveltejs/svelte) ∙
 [Rollup](https://github.com/rollup/rollup) ∙
-[TypeScript](https://github.com/microsoft/TypeScript) ∙
-[esbuild](https://github.com/evanw/esbuild) ∙
-[Prettier](https://github.com/prettier/prettier) ∙
-[@lukeed\/\*](https://github.com/lukeed)
-& [more](package.json)
+[esbuild](https://github.com/evanw/esbuild)
 
-# 🐦
+![example screenshot of Frida Kahlo mirrored](src/images/screenshot_frida_mirrored.jpg)
+
+## images
+
+- [ada_lovelace.png](/src/static/images/ada_lovelace.png) -
+  <https://commons.wikimedia.org/wiki/File:Ada_Byron_daguerreotype_by_Antoine_Claudet_1843_or_1850_-_cropped.png>
+- [alan_turing.jpg](/src/static/images/alan_turing.jpg) -
+  <https://commons.wikimedia.org/wiki/File:Code_breaker_-_Alan_Turing%27s_Life_and_Legacy_at_London_Science_Museum_(Ank_Kumar)_03.jpg>
+- [frida_kahlo.jpg](/src/static/images/frida_kahlo.jpg) -
+  <https://commons.wikimedia.org/wiki/File:Mostra_di_Frida_Kahlo_al_Mudec_di_Milano_3_maggio_2018_(12).jpg>
+
+## license 🐦
+
+public domain ([The Unlicense](license))
+
+see software & image credits above
+
+made with the help of infinite turtles
