@@ -23,6 +23,9 @@ both build on [Svelte](https://github.com/sveltejs/svelte) ∙
 ## todo
 
 - import from a shared library
+- there's a 1px black line rendering bug I failed many times to fix -
+  I think the numbers are correct but it's tricky because DOM -
+  I'll probably change to canvas and hopefully avoid the mess
 
 ## images
 
