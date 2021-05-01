@@ -3,7 +3,7 @@
 	import {createImagesStore} from './imagesStore.js';
 	import {defaultImages} from './defaultImages.js';
 
-	export let name = 'app';
+	export let name: string;
 
 	const images = createImagesStore(defaultImages);
 

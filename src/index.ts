@@ -9,7 +9,7 @@ if (!root) throw Error(`Cannot find app target element with id '${rootElId}'`);
 export const app = new App({
 	target: root,
 	props: {
-		name: 'mirror twins', // TODO! config..
+		name: 'mirror-twin-gro',
 	},
 });
 
