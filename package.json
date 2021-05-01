@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "gro dev",
     "build": "gro build",
-    "start": "gro start"
+    "deploy": "gro deploy"
   },
   "repository": {
     "type": "git",
