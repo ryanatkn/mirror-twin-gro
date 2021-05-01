@@ -1,5 +1,7 @@
 import type {Gen} from '@feltcoop/gro';
-import {renderNoscriptSection, renderMetaTags} from '@feltcoop/gro/dist/gen/helpers/html.js';
+import {renderNoscriptSection} from '@feltcoop/gro/dist/gen/helpers/html.js';
+
+// TODO import `renderMetaTags` but it probably needs to be refactored
 
 export const gen: Gen = () => {
 	const title = 'mirror twins';
@@ -9,7 +11,8 @@ export const gen: Gen = () => {
 <html lang="en">
 	<head>
 		<title>${title}</title>
-		${renderMetaTags()}
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="shortcut icon" href="favicon.ico" />
 		<link rel="stylesheet" href="styles.css" />
 		<link rel="stylesheet" href="bundle.svelte.css" />
