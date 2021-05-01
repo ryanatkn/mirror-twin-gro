@@ -20,6 +20,10 @@ both build on [Svelte](https://github.com/sveltejs/svelte) ∙
 
 ![example screenshot of Frida Kahlo mirrored](src/images/screenshot_frida_mirrored.jpg)
 
+## todo
+
+- import from a shared library
+
 ## images
 
 - [ada_lovelace.png](/src/images/ada_lovelace.png) -
