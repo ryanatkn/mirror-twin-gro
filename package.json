@@ -26,7 +26,6 @@
   },
   "type": "module",
   "devDependencies": {
-    "@feltcoop/felt": "^0.3.0",
     "@feltcoop/gro": "^0.28.3",
     "prettier": "^2.3.2",
     "prettier-plugin-svelte": "^2.3.1",
