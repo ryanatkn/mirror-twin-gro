@@ -1,6 +1,6 @@
 <script lang="ts">
 	import {derived} from 'svelte/store';
-	// import {randomItem} from '@feltcoop/gro/dist/utils/random.js';
+	// import {randomItem} from '@feltcoop/gro/utils/random.js';
 
 	import MirrorTwinImages from './MirrorTwinImages.svelte';
 	import {createMirrorTwinsLayoutStore} from './mirrorTwinsLayoutStore.js';

@@ -1,6 +1,6 @@
 import {derived} from 'svelte/store';
 import type {Writable, Readable} from 'svelte/store';
-// import {UnreachableError} from '@feltcoop/gro/dist/utils/error.js';
+// import {UnreachableError} from '@feltcoop/gro/utils/error.js';
 
 // TODO rename this to something like `RectSelection`?
 
@@ -28,7 +28,7 @@ export type ImageHandleMovement = [ImageHandleName, number]; // number is a delt
 
 // TODO refactor..? how? seems kinda hacky with the derived store usage
 export const createImageHandlesStore = <
-	TDimensions extends Readable<{width: number; height: number}>,
+	TDimensions extends Readable<{width: number; height: number}>
 >(
 	dimensions: TDimensions,
 ): ImageHandlesStore => {

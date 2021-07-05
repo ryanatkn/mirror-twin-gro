@@ -1,5 +1,5 @@
 import type {Gen} from '@feltcoop/gro';
-import {renderNoscriptSection} from '@feltcoop/gro/dist/gen/helpers/html.js';
+import {render_noscript_section} from '@feltcoop/gro/gen/helpers/html.js';
 
 // TODO import `renderMetaTags` but it probably needs to be refactored
 
@@ -20,7 +20,7 @@ export const gen: Gen = () => {
 
 	<body>
 		<div id="root">
-			${renderNoscriptSection(sourceCodeUrl)}
+			${render_noscript_section(sourceCodeUrl)}
 		</div>
 		<script src="index.js" type="module"></script>
 	</body>

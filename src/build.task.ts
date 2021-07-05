@@ -1,21 +1,21 @@
 import type {Task} from '@feltcoop/gro';
-import type {MapInputOptions} from '@feltcoop/gro/dist/project/build.js';
-import {groTerserPlugin} from '@feltcoop/gro/dist/project/rollup-plugin-gro-terser.js';
+import type {Map_Input_Options} from '@feltcoop/gro/build/rollup.js';
+import {gro_terser_plugin} from '@feltcoop/gro/build/rollup_plugin_gro_terser.js';
 
 // turns on terser b/c we currently disable it in Gro by default
 
 export interface TaskArgs {
-	mapInputOptions?: MapInputOptions;
+	map_input_options?: Map_Input_Options;
 }
 
 export const task: Task<TaskArgs> = {
-	description: 'build the project',
+	summary: 'build the project',
 	dev: false,
-	run: async ({invokeTask, args}): Promise<void> => {
-		args.mapInputOptions = (o) => ({
+	run: async ({invoke_task, args}): Promise<void> => {
+		args.map_input_options = (o) => ({
 			...o,
-			plugins: (o.plugins || []).concat(groTerserPlugin()),
+			plugins: (o.plugins || []).concat(gro_terser_plugin()),
 		});
-		await invokeTask('gro/build');
+		await invoke_task('gro/build');
 	},
 };
