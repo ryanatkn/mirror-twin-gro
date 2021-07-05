@@ -1,5 +1,5 @@
 import type {Gen} from '@feltcoop/gro';
-import {render_noscript_section} from '@feltcoop/gro/gen/helpers/html.js';
+import {render_noscript_section} from '@feltcoop/gro/dist/gen/helpers/html.js';
 
 // TODO import `renderMetaTags` but it probably needs to be refactored
 

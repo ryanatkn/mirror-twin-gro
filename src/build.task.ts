@@ -1,6 +1,6 @@
 import type {Task} from '@feltcoop/gro';
-import type {Map_Input_Options} from '@feltcoop/gro/build/rollup.js';
-import {gro_terser_plugin} from '@feltcoop/gro/build/rollup_plugin_gro_terser.js';
+import type {Map_Input_Options} from '@feltcoop/gro/dist/build/rollup.js';
+import {gro_terser_plugin} from '@feltcoop/gro/dist/build/rollup_plugin_gro_terser.js';
 
 // turns on terser b/c we currently disable it in Gro by default
 
