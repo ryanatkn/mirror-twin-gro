@@ -1,0 +1,52 @@
+{
+  "name": "@ryanatkn/mirror-twin-gro",
+  "description": "play with image bilateral symmetry, with a focus on faces",
+  "license": "Unlicense",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "gro dev",
+    "build": "gro build",
+    "deploy": "gro deploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryanatkn/mirror-twin-gro.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ryanatkn/mirror-twin-gro/issues"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Ryan Atkinson",
+    "email": "mail@ryanatkn.com",
+    "url": "https://ryanatkn.com"
+  },
+  "engines": {
+    "node": ">=14.16"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@feltcoop/gro": "^0.32.0",
+    "prettier": "^2.3.2",
+    "prettier-plugin-svelte": "^2.3.1",
+    "svelte": "^3.38.3",
+    "tslib": "^2.3.0",
+    "typescript": "^4.3.5"
+  },
+  "prettier": {
+    "useTabs": true,
+    "printWidth": 100,
+    "singleQuote": true,
+    "trailingComma": "all",
+    "bracketSpacing": false,
+    "svelteBracketNewLine": true,
+    "overrides": [
+      {
+        "files": "package.json",
+        "options": {
+          "useTabs": false
+        }
+      }
+    ]
+  }
+}
