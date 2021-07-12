@@ -1,5 +1,5 @@
 <script lang="ts">
-	import type {ImageInfo} from './imagesStore.js';
+	import type {ImageInfo} from './images_store.js';
 
 	// TODO think more about which components should be responsible for positioning
 

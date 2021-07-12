@@ -1,9 +1,9 @@
 <script lang="ts">
-	import type {ImageHandlesState, ImageXHandleName, ImageYHandleName} from './imageHandlesStore.js';
+	import type {Image_HandlesState, ImageXHandleName, ImageYHandleName} from './image_handles_store.js';
 
 	export let xHandle: ImageXHandleName;
 	export let yHandle: ImageYHandleName;
-	export let handles: ImageHandlesState;
+	export let handles: Image_HandlesState;
 	export let startDragging: (e: any, xHandle: any, yHandle: any) => void; // TODO types
 	export let hovering: boolean;
 	export let dragging: boolean;
