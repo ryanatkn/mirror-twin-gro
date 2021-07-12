@@ -1,11 +1,11 @@
 <script lang="ts">
 	import Mirror_Twins from './Mirror_Twins.svelte';
-	import {createImagesStore} from './images_store.js';
+	import {create_images_store} from './images_store.js';
 	import {default_images} from './default_images.js';
 
 	export let name: string;
 
-	const images = createImagesStore(default_images);
+	const images = create_images_store(default_images);
 
 	let width = window.innerWidth;
 	let height = window.innerHeight;
