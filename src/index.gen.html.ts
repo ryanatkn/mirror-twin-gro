@@ -14,10 +14,9 @@ export const gen: Gen = () => {
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="shortcut icon" href="favicon.ico" />
-		<link rel="stylesheet" href="styles.css" />
+		<link rel="stylesheet" href="style.css" />
 		<link rel="stylesheet" href="bundle.svelte.css" />
 	</head>
-
 	<body>
 		<div id="root">
 			${render_noscript_section(sourceCodeUrl)}
